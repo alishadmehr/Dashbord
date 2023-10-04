@@ -11,14 +11,14 @@
     <div class="container-fluid" style="height: 100vh;">
         <div class="row h-100">
               <!--  start design menu -->
-              <div class="d-lg-none">
-                <ul class="nav bg-body-secondary p-3 d-flex justify-content-between">
+              <div class="d-lg-none bg-body-secondary ">
+                <ul class="nav p-3 d-flex justify-content-between">
                   <li class="nav-item">
                     <a class="btn btn-secondary fs-6-5"  data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">Menu</a>
                   </li>
                   <li class="nav-item">
-                    <button type="button" class="btn btn-primary fs-6-5 rounded-start">share</button>
-                    <button type="button" class="btn btn-primary fs-6-5 rounded-end">export</button>
+                    <button type="button" class="btn btn-primary fs-6-5 rounded-start">Share</button>
+                    <button type="button" class="btn btn-primary fs-6-5 rounded-end">Export</button>
                   </li>
                 </ul>
                 <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
@@ -35,19 +35,19 @@
                             </div>
                             <ul class="nav flex-column">
                                 <li class="nav-item">
-                                  <a class="nav-link active" aria-current="page" href="#">Dashbord</a>
+                                  <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-speedometer2"></i> Dashbord</a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link text-black" href="#">Forms</a>
+                                  <a class="nav-link text-black" href="#"><i class="bi bi-pencil-square"></i> Forms</a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link text-black" href="#">Ul Elements</a>
+                                  <a class="nav-link text-black" href="#"><i class="bi bi-display"></i> Ul Elements</a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link text-black" href="#"> <i class="bi bi-table pe-2"></i>Tables</a>
+                                  <a class="nav-link text-black" href="#"><i class="bi bi-table pe-2"></i>Tables</a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link text-black" href="#">Presentations</a>
+                                  <a class="nav-link text-black" href="#"><i class="bi bi-bar-chart-line-fill"></i> Presentations</a>
                                 </li>
                             </ul> 
                             <div class="ul-box-title bg-secondary p-2 text-white rounded">
@@ -75,7 +75,7 @@
                                   <a class="nav-link text-black" href="#"><i class="bi bi-gear pe-2"></i>Settings</a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link text-black" href="#">Log out</a>
+                                  <a class="nav-link text-black" href="#"><i class="bi bi-power"></i> Log out</a>
                                 </li>
                             </ul>
                         </div>
@@ -84,9 +84,9 @@
                   </div>
                 </div>
                 <div class="row text-black bg-light py-3 d-flex justify-content-between align-items-center ps-3 pe-4 py-2">
-                  <div class="h-3 w-auto">Dashbord</div>
+                  <div class="h-3 w-auto"><i class="bi bi-speedometer2"></i> Dashbord</div>
                   <button class="w-auto btn btn-primary align-items-center rounded-1 fs-6-5" data-bs-toggle="dropdown" aria-expanded="false">
-                    <span class="me-2">this week</span>
+                    <span class="me-2"> <i class="bi bi-calendar-week"></i> This week <i class="bi bi-chevron-down"></i></span>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -97,24 +97,25 @@
               </div>
             <div class="col-lg-2 d-none d-lg-block pt-4 bg-light h-100">
                 <div class="ul-box mt-2">
-                    <div class="ul-box-title bg-secondary p-2 text-white rounded">
+                    <div class="ul-box-title bg-secondary p-2 text-light rounded">
                         Main Navigation
                     </div>
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Dashbord</a>
+                          <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-speedometer2"></i> Dashbord</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                          <a class="nav-link text-black" href="#"><i class="bi bi-pencil-square"></i> Forms</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link text-black" href="#">Forms</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link text-black" href="#">Ul Elements</a>
+                          <a class="nav-link text-black" href="#"><i class="bi bi-display"></i> Ul Elements</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link text-black" href="#"> <i class="bi bi-table pe-2"></i>Tables</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link text-black" href="#">Presentations</a>
+                          <a class="nav-link text-black" href="#"><i class="bi bi-bar-chart-line-fill"></i> Presentations</a>
                         </li>
                     </ul> 
                     <div class="ul-box-title bg-secondary p-2 text-white rounded">
@@ -142,7 +143,7 @@
                           <a class="nav-link text-black" href="#"><i class="bi bi-gear pe-2"></i>Settings</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link text-black" href="#">Log out</a>
+                          <a class="nav-link text-black" href="#"><i class="bi bi-power"></i> Log out</a>
                         </li>
                     </ul>
                 </div>
@@ -151,12 +152,12 @@
               <!-- start design dashbord -->
             <div class="col-lg-10 col-12 mt-lg-4">
                 <div class="row justify-content-between d-none d-lg-flex align-items-start">
-                    <div class="w-25"><h2>Dashbord</h2></div>
+                    <div class="w-25"><h2><i class="bi bi-speedometer2"></i> Dashbord</h2></div>
                     <div class="buttons w-50 d-flex justify-content-end">
-                      <button type="button" class="btn btn-primary rounded-0 rounded-start h-85">share</button>
-                      <button type="button" class="btn btn-primary rounded-0 rounded-end me-2 h-85">export</button>
+                      <button type="button" class="btn btn-primary rounded-0 rounded-start h-85">Share</button>
+                      <button type="button" class="btn btn-primary rounded-0 rounded-end me-2 h-85">Export</button>
                       <button class="btn btn-primary dropdown-toggle d-flex align-items-center rounded-1 h-85" data-bs-toggle="dropdown" aria-expanded="false">
-                        <span class="me-2">this week</span>
+                        <span class="me-2"> <i class="bi bi-calendar-week"></i> This week</i></span>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -170,85 +171,85 @@
                     <div class="col pt-lg-0 pe-lg-0">
                       <div class="card text-center text-white bg-primary rounded-1 md-3 mt-3">
                         <div class="card-header text-start m-1">
-                          new orders
+                          <i class="bi bi-bag-fill"></i> New Orders
                         </div>
                         <div class="card-body mb-4 m-1">
                           <h2 class="card-text text-start">150</h2>
                         </div>
                         <div class="card-footer text-body-secondary text-end">
-                          <a href="#" class="btn text-white fs-6-5">more info <i class="bi bi-forward"></i></a>
+                          <a href="#" class="btn text-white fs-6-5">More info <i class="bi bi-arrow-right-circle"></i></a>
                         </div> 
                       </div>
                     </div>
-                    <div class="col pt-lg-0 pe-lg-0">
-                      <div class="card text-center text-white bg-danger rounded-1 md-3 mt-3">
+                    <div class="col pt-lg-0 pe-lg-0 col-md-6">
+                      <div class="card text-center text-white bg-success rounded-1 md-3 mt-3">
                         <div class="card-header text-start m-1">
-                          new orders
+                          <i class="bi bi-bar-chart-line-fill"></i> Bounce Rate
                         </div>
                         <div class="card-body mb-4">
                           <h2 class="card-text text-start">53%</h2>
                         </div>
                         <div class="card-footer text-body-secondary text-end">
-                          <a href="#" class="btn text-white fs-6-5">more info <i class="bi bi-forward"></i></a>
+                          <a href="#" class="btn text-white fs-6-5">More info <i class="bi bi-arrow-right-circle"></i></a>
                         </div>
                       </div>
                     </div>
-                    <div class="col pt-lg-0 pe-lg-0">
+                    <div class="col pt-lg-0 pe-lg-0 col-md-6">
                       <div class="card text-center text-white bg-warning rounded-1 md-3 mt-3">
                         <div class="card-header text-start m-1">
-                          new orders
+                          <i class="bi bi-person-plus-fill"></i> User Registrations
                         </div>
                         <div class="card-body mb-4">
                           <h2 class="card-text text-start">44</h2>
                         </div>
                         <div class="card-footer text-body-secondary text-end">
-                          <a href="#" class="btn text-white fs-6-5">more info <i class="bi bi-forward"></i></a>
+                          <a href="#" class="btn text-white fs-6-5">More info <i class="bi bi-arrow-right-circle"></i></a>
                         </div>
                       </div>
                     </div>
-                    <div class="col pt-lg-0 pe-lg-0">
-                      <div class="card text-center text-white bg-success rounded-1 md-3 mt-3">
+                    <div class="col pt-lg-0 pe-lg-0 col-md-6">
+                      <div class="card text-center text-white bg-danger rounded-1 md-3 mt-3">
                         <div class="card-header text-start m-1">
-                          new orders
+                          <i class="bi bi-pie-chart-fill"></i> Unique Visitor
                         </div>
                         <div class="card-body mb-4">
                           <h2 class="card-text text-start">65</h2>
                         </div>
                         <div class="card-footer text-body-secondary text-end">
-                          <a href="#" class="btn text-white fs-6-5">more info <i class="bi bi-forward"></i></a>
+                          <a href="#" class="btn text-white fs-6-5">More info <i class="bi bi-arrow-right-circle"></i></a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <!-- start Upload a photo and design it -->
                 <div class="row mt-4">
-                  <div class="col-lg-4 col-12 col-md-6 p-0 px-2 ps-lg-2">
+                  <div class="col-lg-4 mt-3 mt-md-0 col-12 col-md-6 p-0 px-2 ps-lg-2 h-150">
                         <figure class="figure position-relative h-100">
-                          <img src="images/-5951686781256712824_121.jpg" class="figure-img img-fluid object-fit-cover h-100" alt="...">
+                          <img src="images/-5951686781256712825_121.jpg" class="figure-img img-fluid object-fit-cover h-100" alt="...">
                           <figcaption class="figure-caption bg-white position-absolute mt-5 top-50 start-50 translate-middle w-75 p-2 text-center pb-3 pt-3">
-                            <span class="text-warning">weekends</span>
-                            <h5 class="mt-2 text-black fw-bold">our favorite weekend getaways</h5>
+                            <span class="text-warning">Weekends</span>
+                            <h5 class="mt-2 text-black fw-bold">Our favorite weekend getaways</h5>
                             <span>june 12, 2019</span>
                           </figcaption>
                         </figure>
                   </div>
-                  <div class="col-lg-4 col-12 col-md-6">
-                    <figure class="figure position-relative h-100">
-                      <img src="images/-5951686781256712825_121.jpg" class="figure-img img-fluid object-fit-cover h-100" alt="...">
-                      <figcaption class="figure-caption bg-white position-absolute mt-5 top-50 start-50 translate-middle w-75 p-2 text-center pb-3 pt-3">
-                        <span class="text-warning">weekends</span>
-                        <h5 class="mt-2 text-black fw-bold">our favorite weekend getaways</h5>
-                        <span>june 12, 2019</span>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="col-lg-4">
+                  <div class="col-lg-4 mt-3 mt-md-0 col-12 col-md-6 h-150">
                     <figure class="figure position-relative h-100">
                       <img src="images/-5951686781256712826_121.jpg" class="figure-img img-fluid object-fit-cover h-100" alt="...">
                       <figcaption class="figure-caption bg-white position-absolute mt-5 top-50 start-50 translate-middle w-75 p-2 text-center pb-3 pt-3">
-                        <span class="text-warning ">weekends</span>
-                        <h5 class="mt-2 text-black fw-bold">our favorite weekend getaways</h5>
-                        <span>june 12, 2019</span>
+                        <span class="text-warning">Travel</span>
+                        <h5 class="mt-2 text-black fw-bold">Trip to california</h5>
+                        <span>September 15, 2019</span>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-lg-4 mt-3 mt-md-0 h-150">
+                    <figure class="figure position-relative h-100">
+                      <img src="images/-5951686781256712824_121.jpg" class="figure-img img-fluid object-fit-cover h-100" alt="...">
+                      <figcaption class="figure-caption bg-white position-absolute mt-5 top-50 start-50 translate-middle w-75 p-2 text-center pb-3 pt-3">
+                        <span class="text-warning ">Travel</span>
+                        <h5 class="mt-2 text-black fw-bold">Trip to california</h5>
+                        <span>September 15, 2019</span>
                       </figcaption>
                     </figure>
                   </div>
